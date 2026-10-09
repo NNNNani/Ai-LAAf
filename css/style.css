@@ -398,21 +398,18 @@ p {
 
 .produit {
   overflow: hidden;
-
   background: var(--blanc);
-
   border-radius: var(--rayon);
-
   box-shadow: var(--ombre);
-
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
 }
 
+
 .produit:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(40, 33, 24, 0.14);
+  transform: none;
+  box-shadow: var(--ombre);
 }
 
 .produit > img {
