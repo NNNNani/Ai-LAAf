@@ -100,8 +100,10 @@ p {
 /* CONTENEUR*/
 
 .conteneur {
-  width: min(var(--largeur), calc(100% - 40px));
-  margin-inline: auto;
+  width: 90%;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -923,5 +925,4 @@ p {
   .boutons {
     flex-direction: column;
   }
-
 }
